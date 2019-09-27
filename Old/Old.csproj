@@ -2,16 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GenerateReferenceAssemblySource>true</GenerateReferenceAssemblySource>
-    <GenAPIAdditionalParameters>--follow-type-forwards</GenAPIAdditionalParameters>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\New\New.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.DotNet.GenAPI" Version="5.0.0-beta.19477.1" />
   </ItemGroup>
 
 </Project>
